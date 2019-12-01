@@ -10,9 +10,9 @@ public class TestngBasic {
   public void firsttest() {
 	  
 	  System.setProperty("webdriver.chrome.driver", "E:\\ChromeDriver\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	  WebDriver driver = new ChromeDriver();
 		
-		//Mercury project
+		//Mercury project test
 		driver.get("http://newtours.demoaut.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.findElement(By.xpath("//input[@name='userName']")).isEnabled());
