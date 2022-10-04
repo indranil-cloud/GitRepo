@@ -12,64 +12,63 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class TestNGBasic {
-	 @Test
-  public void test() {
-		 System.out.println("Main test1");
-  }
-	 @Test
-	  public void test2() {
-			 System.out.println("Main test2");
-	  }
-	 @Test
-	  public void test3() {
-			 System.out.println("Main test3");
-	  }
-	 @BeforeMethod
-  public void beforeMethod() {
-  System.out.println("before method");
-  }
+	@Test
+	public void test() {
+		System.out.println("Main test1");
+	}
 
-  @AfterMethod
-  public void afterMethod() {
-	  System.out.println("after method");
-  }
+	@Test
+	public void test2() {
+		System.out.println("Main test2");
+	}
 
+	@Test
+	public void test3() {
+		System.out.println("Main test3");
+	}
 
- /* @DataProvider
-  public Object[][] dp() {
-    return new Object[][] {
-      new Object[] { 1, "a" },
-      new Object[] { 2, "b" },
-    };
-  }*/
-  @BeforeClass
-  public void beforeClass() {
-	  System.out.println("before class");
-  }
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("before method");
+	}
 
-  @AfterClass
-  public void afterClass() {
-	  System.out.println("after class");
-  }
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("after method");
+	}
 
-  @BeforeTest
-  public void beforeTest() {
-	  System.out.println("before test");
-  }
+	/*
+	 * @DataProvider public Object[][] dp() { return new Object[][] { new Object[] {
+	 * 1, "a" }, new Object[] { 2, "b" }, }; }
+	 */
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("before class");
+	}
 
-  @AfterTest
-  public void afterTest() {
-	  System.out.println("after test");
-  }
+	@AfterClass
+	public void afterClass() {
+		System.out.println("after class");
+	}
 
-  @BeforeSuite
-  public void beforeSuite() {
-	  System.out.println("before suite");
-  }
+	@BeforeTest
+	public void beforeTest() {
+		System.out.println("before test");
+	}
 
-  @AfterSuite
-  public void afterSuite() {
-	  System.out.println("after suite");
-  }
+	@AfterTest
+	public void afterTest() {
+		System.out.println("after test");
+	}
+
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("before suite");
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("after suite");
+	}
 
 }

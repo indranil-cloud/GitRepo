@@ -3,13 +3,15 @@
 <suite name="test mavan suit">
 
 	<test name="testing mavern suit">
-		
-			
-			<packages>
-				<package name="com.first.project.*"/>
-				<package name="com.selenium.testng.*"/>
-			</packages>
-		
-			
+
+
+		<packages>
+
+			<package name="com.selenium.testng" />
+			<package name="com.first.project" />
+			<package name="com.first.selenium" />
+		</packages>
+
+
 	</test>
 </suite>

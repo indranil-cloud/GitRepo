@@ -1,29 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-01T02:29:06 IST" name="Default suite" finished-at="2019-12-01T02:29:34 IST" duration-ms="27561">
+  <suite started-at="2022-10-04T22:40:16 IST" name="test mavan suit" finished-at="2022-10-04T22:40:22 IST" duration-ms="6727">
     <groups>
     </groups>
-    <test started-at="2019-12-01T02:29:06 IST" name="Default test" finished-at="2019-12-01T02:29:34 IST" duration-ms="27561">
+    <test started-at="2022-10-04T22:40:16 IST" name="testing mavern suit" finished-at="2022-10-04T22:40:22 IST" duration-ms="6727">
       <class name="com.selenium.testng.TestngBasic">
-        <test-method signature="firsttest()[pri:0, instance:com.selenium.testng.TestngBasic@23f7d05d]" started-at="2019-12-01T02:29:06 IST" name="firsttest" finished-at="2019-12-01T02:29:17 IST" duration-ms="10483" status="PASS">
+        <test-method signature="firsttest()[pri:0, instance:com.selenium.testng.TestngBasic@245b4bdc]" started-at="2022-10-04T22:40:16 IST" name="firsttest" finished-at="2022-10-04T22:40:18 IST" duration-ms="2836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firsttest -->
       </class> <!-- com.selenium.testng.TestngBasic -->
+      <class name="com.first.project.DemoTest">
+        <test-method signature="div()[pri:0, instance:com.first.project.DemoTest@79e2c065]" started-at="2022-10-04T22:40:18 IST" name="div" finished-at="2022-10-04T22:40:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="mul()[pri:0, instance:com.first.project.DemoTest@79e2c065]" started-at="2022-10-04T22:40:18 IST" name="mul" finished-at="2022-10-04T22:40:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="sub()[pri:0, instance:com.first.project.DemoTest@79e2c065]" started-at="2022-10-04T22:40:18 IST" name="sub" finished-at="2022-10-04T22:40:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sum()[pri:0, instance:com.first.project.DemoTest@79e2c065]" started-at="2022-10-04T22:40:18 IST" name="sum" finished-at="2022-10-04T22:40:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.first.project.DemoTest -->
       <class name="com.selenium.testng.TestngBasic2">
-        <test-method signature="firsttest2()[pri:0, instance:com.selenium.testng.TestngBasic2@1e730495]" started-at="2019-12-01T02:29:17 IST" name="firsttest2" finished-at="2019-12-01T02:29:26 IST" duration-ms="8559" status="PASS">
+        <test-method signature="firsttest2()[pri:0, instance:com.selenium.testng.TestngBasic2@38c6f217]" started-at="2022-10-04T22:40:18 IST" name="firsttest2" finished-at="2022-10-04T22:40:20 IST" duration-ms="1972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firsttest2 -->
       </class> <!-- com.selenium.testng.TestngBasic2 -->
       <class name="com.selenium.testng.TestngBasic3">
-        <test-method signature="firsttest3()[pri:0, instance:com.selenium.testng.TestngBasic3@7d3a22a9]" started-at="2019-12-01T02:29:26 IST" name="firsttest3" finished-at="2019-12-01T02:29:34 IST" duration-ms="8426" status="PASS">
+        <test-method signature="firsttest3()[pri:0, instance:com.selenium.testng.TestngBasic3@478190fc]" started-at="2022-10-04T22:40:20 IST" name="firsttest3" finished-at="2022-10-04T22:40:22 IST" duration-ms="1825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firsttest3 -->
       </class> <!-- com.selenium.testng.TestngBasic3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.first.project.DemoTest1">
+        <test-method signature="div()[pri:0, instance:com.first.project.DemoTest1@3a93b025]" started-at="2022-10-04T22:40:20 IST" name="div" finished-at="2022-10-04T22:40:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="mul()[pri:0, instance:com.first.project.DemoTest1@3a93b025]" started-at="2022-10-04T22:40:20 IST" name="mul" finished-at="2022-10-04T22:40:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="sub()[pri:0, instance:com.first.project.DemoTest1@3a93b025]" started-at="2022-10-04T22:40:20 IST" name="sub" finished-at="2022-10-04T22:40:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sum()[pri:0, instance:com.first.project.DemoTest1@3a93b025]" started-at="2022-10-04T22:40:20 IST" name="sum" finished-at="2022-10-04T22:40:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.first.project.DemoTest1 -->
+      <class name="com.first.project.DemoTest2">
+        <test-method signature="div()[pri:0, instance:com.first.project.DemoTest2@35cabb2a]" started-at="2022-10-04T22:40:22 IST" name="div" finished-at="2022-10-04T22:40:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="mul()[pri:0, instance:com.first.project.DemoTest2@35cabb2a]" started-at="2022-10-04T22:40:22 IST" name="mul" finished-at="2022-10-04T22:40:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="sub()[pri:0, instance:com.first.project.DemoTest2@35cabb2a]" started-at="2022-10-04T22:40:22 IST" name="sub" finished-at="2022-10-04T22:40:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sum()[pri:0, instance:com.first.project.DemoTest2@35cabb2a]" started-at="2022-10-04T22:40:22 IST" name="sum" finished-at="2022-10-04T22:40:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.first.project.DemoTest2 -->
+    </test> <!-- testing mavern suit -->
+  </suite> <!-- test mavan suit -->
 </testng-results>
